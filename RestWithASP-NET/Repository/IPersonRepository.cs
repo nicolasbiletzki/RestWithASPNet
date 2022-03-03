@@ -11,6 +11,8 @@ namespace RestWithASP_NET.Repository
         Person Update(Person person);
         void Delete(long id);
 
+        bool Exists(long id);
+
 
     }
 }
